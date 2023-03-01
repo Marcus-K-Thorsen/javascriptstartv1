@@ -1,7 +1,23 @@
 body {
     margin: 0;
-    padding: 8px;
+}
+
+.casino-background {
     background-image: url("/images/playingCardsBackground.jpg");
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    padding: 8px;
+    height: 800px;
+}
+
+#player-hand {
+    position: absolute;
+    display: flex;
+    background-color: rgba(255, 55, 55, 0.2);
+    margin: auto;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
